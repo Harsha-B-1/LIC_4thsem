@@ -100,8 +100,7 @@ let Vb=0.7v
 
 from simulation we got this DC operating point and both the mosfets are in saturation region
 
-![Screenshot (59)](https://github.com/user-attachments/assets/83c28ca6-1ad0-4e2b-a684-df081d440fc2)
-
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/operating%20point.png?raw=true)
 # Transient Analysis
 ![Screenshot (60)](https://github.com/user-attachments/assets/06f4e7f7-74f3-47b9-8be7-ff2672344e10)
 
