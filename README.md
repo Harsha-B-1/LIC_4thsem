@@ -8,7 +8,7 @@ This project focuses on the characterisation of the common source amplifier usin
  # Circuit diagram
 
 circuit-1
-"C:\Users\Admin\OneDrive\Pictures\Screenshots\Screenshot 2025-02-17 223629.png"
+![Alt image]
 
   # To fix the operating point in saturation region
 
@@ -43,7 +43,7 @@ operating point details
 
 By providing a sine wave with DC offset of 0.9v, amplitude 50mv and with frequency 1kHZ in the input we obtained the responc of the circuit with respect to time .
 
-![image](https://github.com/user-attachments/assets/bcd25a03-5797-412c-87b0-0796417c1afb)
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/op1.png?raw=true)
 
 The gain of the circuit with the inputas a sine wave of frequency 1kHZ is given by Gain=voutp-p/vinp-p
 Gain=91.120-0.8750/0.1
