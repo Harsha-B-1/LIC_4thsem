@@ -8,7 +8,7 @@ This project focuses on the characterisation of the common source amplifier usin
  # Circuit diagram
 
 circuit-1
-![Alt image]
+![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/Screenshot%202025-02-17%20223629.png?raw=true)
 
   # To fix the operating point in saturation region
 
