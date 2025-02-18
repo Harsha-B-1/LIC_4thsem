@@ -78,6 +78,7 @@ Gain(large signal analysis)=7.783dB
 # Circuit 2
 
 # Circuit Diagram
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/Screenshot%202025-02-18%20070444.png?raw=true)
 
 # To set the DC operating point in Saturation region
 
