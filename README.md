@@ -43,7 +43,8 @@ operating point details
 
 By providing a sine wave with DC offset of 0.9v, amplitude 50mv and with frequency 1kHZ in the input we obtained the responc of the circuit with respect to time .
 
-![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/op1.png?raw=true)
+![image](
+IMG_20250221_104941.png)
 
 The gain of the circuit with the inputas a sine wave of frequency 1kHZ is given by Gain=voutp-p/vinp-p
 Gain=91.120-0.8750/0.1
