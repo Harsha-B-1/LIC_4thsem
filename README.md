@@ -43,8 +43,7 @@ operating point details
 
 By providing a sine wave with DC offset of 0.9v, amplitude 50mv and with frequency 1kHZ in the input we obtained the responc of the circuit with respect to time .
 
-![image](
-IMG_20250221_104941.png)
+![image](op1.png)
 
 The gain of the circuit with the inputas a sine wave of frequency 1kHZ is given by Gain=voutp-p/vinp-p
 Gain=91.120-0.8750/0.1
@@ -104,7 +103,7 @@ from simulation we got this DC operating point and both the mosfets are in satur
 
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/operating%20point.png?raw=true)
 # Transient Analysis
-![Screenshot (60)](https://github.com/user-attachments/assets/06f4e7f7-74f3-47b9-8be7-ff2672344e10)
+![Screenshot (60)](IMG_20250221_104941.png)
 
 Gain=Vout p-p/Vin p-p
 Gain= (1.4-0.3657)/0.1
