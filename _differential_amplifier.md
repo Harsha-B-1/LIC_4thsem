@@ -229,4 +229,8 @@ Vds = Vgs - Vt ( Vds = Vp = 0.4V )
 Vbias = Vg = 0.76=0.8V(approx) ( Bias voltage at the gate for 3rd n type mosfet)
 
 The width and length of the differential pair MOSFETs remain unchanged, while the third MOSFET has a width of 16.9662um and a length of 180nm.
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3_dc.png?raw=true)
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3_Q.png?raw=true)
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3_ul.png?raw=true)
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3_ac.png?raw=true)
 
