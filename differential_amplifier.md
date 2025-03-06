@@ -82,4 +82,4 @@ Larger Rd increases voltage gain.
 
  ## DC Analysis
  ### Circuit Diagram
- ![Alt image]("C:\Users\Admin\OneDrive\Pictures\Screenshots\r3\Screenshot 2025-03-06 072314.png")
+ ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1.png?raw=true)
