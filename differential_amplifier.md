@@ -84,7 +84,12 @@ Larger Rd increases voltage gain.
  ### Circuit Diagram
  ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1.png?raw=true)
  
+ 
  ### DC Analysis
+ Procedure 
+<br> 1.Make the circuit connections as per diagram.<br>
+<br>2.set w/L = 180nm/ 7.59995um such that Id becoes 5.9mA.<br>
+<br>3. Even though the given parameter is 6mA ,it is bettter keep the value ratherthan exceeding , because in large scale millions and billions of transistors are used there power consumption of each fet will addup and make device less relaiable.<br>
 
  Oparating point
  ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1dc.png?raw=true)
@@ -99,3 +104,13 @@ Larger Rd increases voltage gain.
 |Rd            | 1.83 kohm          | 1.838 kohm      |
 |Rss           | 416.67 ohm         | 416ohm          |
 |Vgs           | 0.8 V              | 0.801V          |
+
+### Transient Analysis
+procedure
+* Replace DC input with an AC signal.
+* Use SINE(dc_offset, Amplitude, Frequency).
+* Go to "Simulate" > "Edit Simulation Cmd" > "Transient".
+* Set Stop Time: 10ms.
+* Run the simulation.
+* Our dc_offset = 1.3V and assume amplitude as 50mV and frequency as 1Khz
+  
