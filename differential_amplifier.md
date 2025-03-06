@@ -4,8 +4,12 @@
 ## Applications
 Used in operational amplifiers, instrumentation amplifiers, and analog front-end circuits, it enhances noise immunity and precision in signal processing systems.
 ### Q) Design a differential amplifier for the following specifications 
-Vdd =2.5V | Vincm=1.3V | Vp=0.5V| P<=3mW|Vocm=1.4V
-
+| Parameter |  value | 
+|-----------|--------|
+|VDD        | 2.5V   |
+|Vp         | 0.5V   | 
+|VinCM      | 1.3V   |
+|VOcm       |1.4V    |
 Perform DC analysis , Transient analysis , frequency response and extract the parameters.
 
 ### *circuit diagram and design
