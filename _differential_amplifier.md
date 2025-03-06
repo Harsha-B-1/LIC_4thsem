@@ -224,13 +224,29 @@ theoretical gain is 13.97dB <br>
 ### DC Analysis
 
 Vds = Vgs - Vt ( Vds = Vp = 0.4V )
-0.4 + 0.36 = Vg ( since source is grounded )
+0.5 + 0.3 = Vg ( since source is grounded )
 
-Vbias = Vg = 0.76=0.8V(approx) ( Bias voltage at the gate for 3rd n type mosfet)
+Vbias = Vg = 0.8v(approx) ( Bias voltage at the gate for 3rd n type mosfet)
 
-The width and length of the differential pair MOSFETs remain unchanged, while the third MOSFET has a width of 16.9662um and a length of 180nm.
+The width and length of the differential pair MOSFETs remain unchanged, while the third MOSFET has a width of 16.9662um and a length of 180nm.<br>
+## DC analysis
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3_dc.png?raw=true)
+**- Condition for transistor to operate in saturation region,**
+
+Vgs>Vth, 
+
+Vds> Vov 
+
+From the Output Log we can observe that Vgs= 0.55V , Vth= 0.36V and Vds = 0.9V . <br>
+It is satisfying the required condition therefore, the transistors lies in saturation region .
+<br>Q point = (Vds,Id) = (0.9V,0.598mA).<br>
+## Transeint Analysis
+### Case 1: Vin =1.3V(50m amp)
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3_Q.png?raw=true)
+Vincmp-p = 2.6V <br>
+Vout p-p = 1.21 + 1.62 = 2.83V<br>
+From theoretical value wkt Vout(max)p-p = 2.80V <br>
+So in this input volatge we are getting the maximum output swing.<br>
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3_ul.png?raw=true)
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3_ac.png?raw=true)
 
