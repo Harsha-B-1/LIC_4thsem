@@ -58,19 +58,14 @@ The differential output voltage is given by:
 Vout =(I1-I2)Rd
 Larger Rd increases voltage gain.
 
-Summary of Component Roles
+###Summary of Component Roles
 
-| Component	              | | Function                                                    |
-
-|-----------------------------------------------------------------------------------------|
-
-| MOSFETs (M1 & M2)       |	| Act as the main amplifiers.                                 |
-
-| Common Source           |	| Provides a shared reference for both transistors.           |
-
-| Current Source (𝐼𝑏𝑖𝑎𝑠)   |	| Sets the operating point and stabilizes current.            |
-
-| Common-Mode Rejection   |	| Minimizes noise and enhances differential signal integrity. |
+| Component           | Function                                         |
+|---------------------|--------------------------------------------------|
+|MOSFETs (M1 & M2)    | Act as the main amplifiers.                      | 
+|Common Source        | Provides a shared reference for both transistors |
+|urrent Source(Ibias) | Sets the operating point and stabilizes current. |
+|Drain Resistors      | Convert current variations into voltage signals. |
 
 
 ### *Advantages of FET-Based Differential Amplifier
