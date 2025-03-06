@@ -162,14 +162,14 @@ Bandwidth = 13GHz <br>
  |Av(in dB)      | 13.92dB      | 13.1dB          |
  |Av(in V/V)     | 5v/v         | 4.5             |
 -------------------------------------------------------------------------------------------------------------------
-# Circuit -2 
+# Circuit -2 Current Source-Loaded Differential Pair
 ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_.png?raw=true)
-[image]()
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_dc.png?raw=true)
 
-[image]()
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_Q.png?raw=true)
 
-[image]()
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_ul.png?raw=true)
 
-[image]()
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_ac.png?raw=true)
 
 
