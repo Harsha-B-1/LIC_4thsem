@@ -216,4 +216,17 @@ theoretical gain is 13.97dB <br>
   |Av(in dB)      | 13.92dB      | 13.1dB          |
   |Av(in V/V)     | 5v/v         | 4.5             |
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Circuit 3
+
+### Circuit Diagram:Simple Current Source Differential Pair
+
+![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3.png?raw=true)
+### DC Analysis
+
+Vds = Vgs - Vt ( Vds = Vp = 0.4V )
+0.4 + 0.36 = Vg ( since source is grounded )
+
+Vbias = Vg = 0.76=0.8V(approx) ( Bias voltage at the gate for 3rd n type mosfet)
+
+The width and length of the differential pair MOSFETs remain unchanged, while the third MOSFET has a width of 16.9662um and a length of 180nm.
 
