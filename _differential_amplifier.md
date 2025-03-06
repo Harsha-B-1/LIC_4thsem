@@ -276,5 +276,15 @@ theoretical gain is 13.97dB <br>
  | **W/L**       | 180nm/180nm(min)|7.59995um/180nm|7.59995um/180nm|16.9662um/180nm{m3}|
  | **Vimin**     |     0.87V       |  0.5V         |   0.4V        |       0.37V       |
  |**Vimax**      |       1.77V     |        1.7V   | 1.9V          |       2V          |
+ ## comparision table
+ | Parameter|	Circuit 1: Resistor Load	|Circuit 2: Current Source Load|	Circuit 3: Active Load|
+ |DC Operating Point|	Higher power dissipation due to resistor drop	|Moderate power efficiency	|Best power efficiency|
+ |Voltage Gain (Av)	|Lowest gain (Av ≈ 5-10)	Medium gain (Av ≈ 15-25)	Highest gain (Av ≈ 30-50)
+ |Bandwidth (BW)	|Highest due to lower gain	Moderate	Lowest due to high gain
+ |Output Swing	|Limited by resistor voltage drop	Improved swing	Best swing due to active load
+ |Common-Mode Rejection Ratio (CMRR)	|Low	Moderate	High
+ |Distortion at High Inputs|	Distorts early (~1.5V)	Better than Resistor Load (~1.7V)	Best linearity (~1.9V before distortion)
+ |Power Consumption	|High	Moderate	Low (best efficiency)
+ |Suitability	Simple|low-cost designs	Balanced performance	High-precision applications
 
  
