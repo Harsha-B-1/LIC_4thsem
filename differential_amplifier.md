@@ -81,11 +81,11 @@ Larger Rd increases voltage gain.
  Ideal for operational amplifiers, instrumentation amplifiers, and signal processing.
 
  
- ### Circuit Diagram
+ ## Circuit Diagram
  ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1.png?raw=true)
  
  
- ### DC Analysis
+ ## DC Analysis
  Procedure 
 <br> 1.Make the circuit connections as per diagram.<br>
 <br>2.set w/L = 180nm/ 7.59995um such that Id becoes 5.9mA.<br>
@@ -113,16 +113,51 @@ Larger Rd increases voltage gain.
  Vout(max) = Vdd-(Id*Rd) = 1.4007V <br>
  0.93V<Vo<1.4007V
 <br>
-### Transient Analysis
+## Transient Analysis
 procedure
 * Replace DC input with an AC signal.
 * Use SINE(dc_offset, Amplitude, Frequency).
 * Go to "Simulate" > "Edit Simulation Cmd" > "Transient".
 * Set Stop Time: 10ms.
 * Run the simulation.
-* Our dc_offset = 1.3V and assume amplitude as 50mV and frequency as 1Khz
-  <br> Case 1: Vin <0.5V (50m amp)<br>
+* Our dc_offset = 1.3V and assume amplitude as 50mV and frequency as 1Khz<BR>
+  ### Case 1: Vin <0.5V (50mV amp)<br>
   ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1_bll.png?raw=true)
+  <br> As we apply Vin as 0.4V sinewave(f=1kHz) with 50mV amolitude.
+  As Vin is near to Vt(0.36V) operation of Fet is not linear infact Mi and M2 eneters to off state so output is not stable and linear.<br>
+  vinp-p = 1mV<br>
+  Vo is almost looks like DC voltage , Vo=2.5V<br>
+  ### Case2 :vin>0.5V(50mV)<br>
   ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1_ll.png?raw=true)
+  In this case Vgs >Vt , Vds>Vov.
+  Vinp-p =1V.<br>
+  Vop-p = 4.08v<br>
+  Hence the Vop-p is large we can consider 0.5V as Vin minimum value. But the theoretical Vop-p=2.8V But here it is exceeding it by large margin. This implies Vin musst be above 0.6V<br>
+   ### Case3 :vin=1.3V(50mV) Designed value.<br>
   ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1_Q.png?raw=true)
+  <br>Vinp-p = 2.6V<br>
+  <br>Vop-p=2.83V<br>
+  The theoretical max Vo is 2.8V .So this output is meeting required design conditions.<br>
+  ### Case4 :vin>1.7V(50mV) Designed value.<br>
   ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1_ul.png?raw=true)
+  <br>Here the output is distorted so we can consider above the 1.6V Fet enters to triode region and output dies out.<br>
+  ## AC Analysis
+  #### Steps to get Ac analysis Waveform:
+- In simulation tab select AC Analysis.<br>
+- In the AC Analysis tab, select **Type of Sweep as Decade**.<br>
+- Enter the number of points per decade (ex:20) and the frequency range ( 0.1Hz to 1THz).<br>
+  ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1_ac.png?raw=true)
+<br>theoretical Gain . <br>
+gain = Av= -gm*Rd 
+where gm= (2Id)/Vov = 2.72mS <br>
+Av= -2.72m * 1.83k = -5 V/V <br>
+as we know Av= 20Log(vout/Vin)<br>
+in dB scale theoretical gain is 13.97dB <br>
+from this , practically we are getting 13.01dB gain <br>
+Bandwidth = 13GHz <br>
+3db Bandwidth = 19GHz <br>
+|Parameter      |Theory value  | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 13.92dB      | 13.01dB         |
+|Av(in V/V)     | 5            | 4.5             |
+
