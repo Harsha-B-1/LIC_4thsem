@@ -104,7 +104,15 @@ Larger Rd increases voltage gain.
 |Rd            | 1.83 kohm          | 1.838 kohm      |
 |Rss           | 416.67 ohm         | 416ohm          |
 |Vgs           | 0.8 V              | 0.801V          |
-
+### Finding input and output swing
+<br>therefore Q point = (Vds,Id) = (0.9V,0.598mA).<br>
+ Vincm(min)= Vth + Vp = 0.37 + 0.5 = 0.87V <br>
+ Vincm(max) = Vdd - (Id*Rd) + Vth = 1.77V <br>
+ 0.87V < Vin <1.77V(input swing)<br>
+ Vout(min) = Vov1 + Vov3 = (0.8-0.37)+0.5 = 0.93V <br>
+ Vout(max) = Vdd-(Id*Rd) = 1.4007V <br>
+ 0.93V<Vo<1.4007V
+<br>
 ### Transient Analysis
 procedure
 * Replace DC input with an AC signal.
@@ -113,4 +121,6 @@ procedure
 * Set Stop Time: 10ms.
 * Run the simulation.
 * Our dc_offset = 1.3V and assume amplitude as 50mV and frequency as 1Khz
+  <br> Case 1: Vin <0.5V (50m amp)<br>
+  ![A;t image]()
   
