@@ -122,5 +122,6 @@ procedure
 * Run the simulation.
 * Our dc_offset = 1.3V and assume amplitude as 50mV and frequency as 1Khz
   <br> Case 1: Vin <0.5V (50m amp)<br>
-  ![A;t image]()
+  ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1_bll.png?raw=true)
+  ![Alt image]()
   
