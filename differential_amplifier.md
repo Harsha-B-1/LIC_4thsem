@@ -7,3 +7,6 @@ Used in operational amplifiers, instrumentation amplifiers, and analog front-end
 Vdd =2.5V | Vincm=1.3V | Vp=0.5V| P<=3mW|Vocm=1.4V
 
 Perform DC analysis , Transient analysis , frequency response and extract the parameters.
+
+circuit-1
+![Alt image]()
