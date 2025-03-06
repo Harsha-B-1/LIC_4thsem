@@ -87,4 +87,4 @@ Larger Rd increases voltage gain.
  ### DC Analysis
 
  Oparating point
- ![Alt image]
+ ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1dc.png?raw=true)
