@@ -158,6 +158,6 @@ Bandwidth = 13GHz <br>
 3db Bandwidth = 19GHz <br>
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
-|Av(in dB)      | 13.92dB      | 13.01dB         |
-|Av(in V/V)     | 5            | 4.5             |
+|Av(in dB)      | 13.92dB      | 13.1dB          |
+|Av(in V/V)     | 5v/v         | 4.5             |
 
