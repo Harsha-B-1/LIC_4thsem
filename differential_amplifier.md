@@ -162,5 +162,14 @@ Bandwidth = 13GHz <br>
  |Av(in dB)      | 13.92dB      | 13.1dB          |
  |Av(in V/V)     | 5v/v         | 4.5             |
 -------------------------------------------------------------------------------------------------------------------
+# Circuit -2 
+![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_.png?raw=true)
+[image]()
+
+[image]()
+
+[image]()
+
+[image]()
 
 
