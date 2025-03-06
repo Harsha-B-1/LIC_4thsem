@@ -159,7 +159,7 @@ Bandwidth = 13GHz <br>
 
  |Parameter      |Theory value  | Practical value |
  |---------------|--------------|-----------------|
- |Av(in dB)      | 13.92dB      | 13.1dB          |
+ |Av(in dB)      | 13.97dB      | 13.1dB          |
  |Av(in V/V)     | 5v/v         | 4.5             |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Circuit -2<br>
@@ -213,7 +213,7 @@ The transistor enters the triode region as Vds<Vov <br>
 theoretical gain is 13.97dB <br>
   |Parameter      |Theory value  | Practical value |
   |---------------|--------------|-----------------|
-  |Av(in dB)      | 13.92dB      | 13.1dB          |
+  |Av(in dB)      | 13.97dB      | 13.1dB          |
   |Av(in V/V)     | 5v/v         | 4.5             |
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Circuit 3
@@ -247,6 +247,19 @@ Vincmp-p = 2.6V <br>
 Vout p-p = 1.21 + 1.62 = 2.83V<br>
 From theoretical value wkt Vout(max)p-p = 2.80V <br>
 So in this input volatge we are getting the maximum output swing.<br>
+### case 2: Vin =2V(50m amp)
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3_ul.png?raw=true)
+The transistor enters the triode region as Vds<Vov <br>
+<br>Output will become DC as we keep moving above 1.9V. So input max can be fixed as 1.9V.
+ ## AC Analysis
+  #### Steps to get Ac analysis Waveform:
+- In simulation tab select AC Analysis.<br>
+- In the AC Analysis tab, select **Type of Sweep as Decade**.<br>
+- Enter the number of points per decade (ex:20) and the frequency range ( 0.1Hz to 1THz).<br>
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c3_ac.png?raw=true)
-
+theoretical gain is 13.97dB <br>
+   |Parameter      |Theory value  | Practical value |
+   |---------------|--------------|-----------------|
+   |Av(in dB)      | 13.97dB      | 13.1dB          |
+   |Av(in V/V)     | 5v/v         | 4.5             |
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
