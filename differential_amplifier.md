@@ -10,6 +10,8 @@ Used in operational amplifiers, instrumentation amplifiers, and analog front-end
 |Vp         | 0.5V   | 
 |VinCM      | 1.3V   |
 |VOcm       |1.4V    |
+
+
 Perform DC analysis , Transient analysis , frequency response and extract the parameters.
 
 ### *circuit diagram and design
@@ -77,3 +79,7 @@ Larger Rd increases voltage gain.
  Low noise and power consumption.
  Good linearity and stability.
  Ideal for operational amplifiers, instrumentation amplifiers, and signal processing.
+
+ ## DC Analysis
+ ### Circuit Diagram
+ ![Alt image]("C:\Users\Admin\OneDrive\Pictures\Screenshots\r3\Screenshot 2025-03-06 072314.png")
