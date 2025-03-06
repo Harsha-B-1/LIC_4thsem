@@ -138,7 +138,7 @@ procedure
   <br>Vinp-p = 2.6V<br>
   <br>Vop-p=2.83V<br>
   The theoretical max Vo is 2.8V .So this output is meeting required design conditions.<br>
-  ### Case4 :vin>1.7V(50mV) Designed value.<br>
+  ### Case4 :vin>1.7V(50mV) <br>
   ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1_ul.png?raw=true)
   <br>Here the output is distorted so we can consider above the 1.6V Fet enters to triode region and output dies out.<br>
   ## AC Analysis
@@ -184,15 +184,26 @@ Vincm(min)= Vth + Vp = 0.37 + 0.5 = 0.87V <br>
  Vout(max) = Vdd-(Id*Rd) = 1.4007V <br>
  0.93V<Vo<1.4007V<br>
  
-
+## Transient Analysis
+procedure
+* Replace DC input with an AC signal.
+* Use SINE(dc_offset, Amplitude, Frequency).
+* Go to "Simulate" > "Edit Simulation Cmd" > "Transient".
+* Set Stop Time: 10ms.
+* Run the simulation.
+* Our dc_offset = 1.3V and assume amplitude as 50mV and frequency as 1Khz<BR>
+### case 1: Vin =1.3V(50m amp)
 
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_Q.png?raw=true)
 Vincmp-p = 2.6V <br>
-Vout p-p = 1.21 + 1.60 = 2.80V<br>
+Vout p-p = 1.21 + 1.62 = 2.83V<br>
 From theoretical value wkt Vout(max)p-p = 2.80V <br>
-So in this input volatge we are getting the maximum output swing.<br
-
+So in this input volatge we are getting the maximum output swing.<br>
+### case 1: Vin =1.9(50m amp)
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_ul.png?raw=true)
+The transistor enters the triode region as Vds<Vov <br>
+<br>Output will become DC as we keep moving above 1.9V. So input max can be fixed as 1.9V.
+ 
 
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_ac.png?raw=true)
 
