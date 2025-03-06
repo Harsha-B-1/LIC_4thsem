@@ -64,8 +64,8 @@ Larger Rd increases voltage gain.
 |---------------------|--------------------------------------------------|
 |MOSFETs (M1 & M2)    | Act as the main amplifiers.                      | 
 |Common Source        | Provides a shared reference for both transistors |
-|urrent Source(Ibias) | Sets the operating point and stabilizes current. |
-|Drain Resistors      | Convert current variations into voltage signals. |
+|Current Source(Ibias)| Sets the operating point and stabilizes current. |
+|Drain Resistors(Rd)  | Convert current variations into voltage signals. |
 
 
 ### *Advantages of FET-Based Differential Amplifier
