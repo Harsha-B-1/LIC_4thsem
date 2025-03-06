@@ -8,5 +8,13 @@ Vdd =2.5V | Vincm=1.3V | Vp=0.5V| P<=3mW|Vocm=1.4V
 
 Perform DC analysis , Transient analysis , frequency response and extract the parameters.
 
-circuit-1
-![Alt image]()
+### *circuit diagram and design
+![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/circuit%20design.jpg?raw=true)
+
+### *Working of MOSFET-Based Differential Amplifier
+A FET-based differential amplifier operates by amplifying the voltage difference between two input signals while rejecting common-mode signals. It is commonly implemented using MOSFETs or JFETs, providing high input impedance, low power consumption, and excellent noise immunity.
+
+### *key equations 
+1. Vgs>Vthn
+2. Vov=> Vgs-Vt
+3. Id=1/2Kn Vov^2
