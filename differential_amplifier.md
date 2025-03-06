@@ -16,5 +16,45 @@ A FET-based differential amplifier operates by amplifying the voltage difference
 
 ### *key equations 
 1. Vgs>Vthn
-2. Vov=> Vgs-Vt
+2. Vds=>Vov   --> (Vgs-Vt)
 3. Id=1/2Kn Vov^2
+4. gm=Id/Vgs
+5. Av=gm*Rd = 2Id *Rd/Vov (for differential amp)
+
+### *Role of Each Component in a FET-Based Differential Amplifier
+A FET-based differential amplifier consists of several key components, each playing a critical role in its operation. Below is a breakdown of their functions:
+1. Matched MOSFETs (M1 & M2)
+Function: Act as the active amplifying devices.
+Working:
+The gate terminals receive differential input signals.
+The drain currents vary based on the difference in gate-source voltages.
+The transistor with a higher gate voltage conducts more current, lowering its drain voltage, and vice versa.
+
+
+2.Common Source Connection
+Function: Both MOSFET sources are connected together to a current source.
+Working:
+Ensures that the current splits between the two transistors dynamically.
+Helps maintain differential operation.
+
+
+3.Common Source Connection
+Function: Both MOSFET sources are connected together to a current source.
+Working:
+Ensures that the current splits between the two transistors dynamically.
+Helps maintain differential operation.
+
+
+4. Drain Resistors(Rd)
+Function: Convert drain current variations into voltage output.
+Working:
+The voltage drop across Rd determines the output voltage.
+The differential output voltage is given by:
+Vout =(I1-I2)Rd
+Larger Rd increases voltage gain.
+
+### *Advantages of FET-Based Differential Amplifier
+ High input impedance (good for sensor applications).
+ Low noise and power consumption.
+ Good linearity and stability.
+ Ideal for operational amplifiers, instrumentation amplifiers, and signal processing.
