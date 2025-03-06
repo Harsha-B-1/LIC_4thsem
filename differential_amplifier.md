@@ -211,8 +211,9 @@ The transistor enters the triode region as Vds<Vov <br>
 - Enter the number of points per decade (ex:20) and the frequency range ( 0.1Hz to 1THz).<br>
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_ac.png?raw=true)
 theoretical gain is 13.97dB <br>
- |Parameter      |Theory value  | Practical value |
- |---------------|--------------|-----------------|
- |Av(in dB)      | 13.92dB      | 13.1dB          |
- |Av(in V/V)     | 5v/v         | 4.5             |
+  |Parameter      |Theory value  | Practical value |
+  |---------------|--------------|-----------------|
+  |Av(in dB)      | 13.92dB      | 13.1dB          |
+  |Av(in V/V)     | 5v/v         | 4.5             |
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
