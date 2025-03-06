@@ -161,12 +161,36 @@ Bandwidth = 13GHz <br>
  |---------------|--------------|-----------------|
  |Av(in dB)      | 13.92dB      | 13.1dB          |
  |Av(in V/V)     | 5v/v         | 4.5             |
--------------------------------------------------------------------------------------------------------------------
-# Circuit -2 Current Source-Loaded Differential Pair
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Circuit -2<br>
+## Current Source-Loaded Differential Pair
+### Circuit Diagram
 ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_.png?raw=true)
+### DC Analysis 
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_dc.png?raw=true)
+the transistor to operate in saturation region ,<br>
+Vgs>Vth, <br>
+Vds> Vov <br>
+##### 0.801 > 0.495 Vgs > Vth <br>
+##### 0.904 > (0.801-0.495) i.e Vds > Vov <br>
+saturation region conditions are meet. .<br>
+Therefore Q point = (Vds,Id) = (0.9V,0.598mA).<br>
+### Swing of input amd output V 
+
+Vincm(min)= Vth + Vp = 0.37 + 0.5 = 0.87V <br>
+ Vincm(max) = Vdd - (Id*Rd) + Vth = 1.77V <br>
+ 0.87V < Vin <1.77V(input swing)<br>
+ Vout(min) = Vov1 + Vov3 = (0.8-0.37)+0.5 = 0.93V <br>
+ Vout(max) = Vdd-(Id*Rd) = 1.4007V <br>
+ 0.93V<Vo<1.4007V<br>
+ 
+
 
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_Q.png?raw=true)
+Vincmp-p = 2.6V <br>
+Vout p-p = 1.21 + 1.60 = 2.80V<br>
+From theoretical value wkt Vout(max)p-p = 2.80V <br>
+So in this input volatge we are getting the maximum output swing.<br
 
 ![image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c2_ul.png?raw=true)
 
