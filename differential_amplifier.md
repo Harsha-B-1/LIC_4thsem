@@ -88,3 +88,14 @@ Larger Rd increases voltage gain.
 
  Oparating point
  ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1dc.png?raw=true)
+ 
+
+| Parameter    | Theoretical value  | Practical value |
+|--------------|--------------------|-----------------|
+|Voutcm        | 1.40 V             | 1.40037 V       |
+|Vp            | 0.5 V              | 0.498 V         |
+|Id1,Id2       | 0.6 mA             | 0.598mA         |
+|Id(R3)        | 1.2 mA             | 1.1965 mA       |
+|Rd            | 1.83 kohm          | 1.838 kohm      |
+|Rss           | 416.67 ohm         | 416ohm          |
+|Vgs           | 0.8 V              | 0.801V          |
