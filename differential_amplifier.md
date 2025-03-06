@@ -80,6 +80,11 @@ Larger Rd increases voltage gain.
  Good linearity and stability.
  Ideal for operational amplifiers, instrumentation amplifiers, and signal processing.
 
- ## DC Analysis
+ 
  ### Circuit Diagram
  ![Alt image](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/c1.png?raw=true)
+ 
+ ### DC Analysis
+
+ Oparating point
+ ![Alt image]
