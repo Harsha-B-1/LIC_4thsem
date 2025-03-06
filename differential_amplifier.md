@@ -23,16 +23,19 @@ A FET-based differential amplifier operates by amplifying the voltage difference
 
 ### *Role of Each Component in a FET-Based Differential Amplifier
 A FET-based differential amplifier consists of several key components, each playing a critical role in its operation. Below is a breakdown of their functions:
-1. Matched MOSFETs (M1 & M2)
+ 1.Matched MOSFETs (M1 & M2)
 Function: Act as the active amplifying devices.
 Working:
 The gate terminals receive differential input signals.
+
 The drain currents vary based on the difference in gate-source voltages.
+
 The transistor with a higher gate voltage conducts more current, lowering its drain voltage, and vice versa.
 
 
 2.Common Source Connection
 Function: Both MOSFET sources are connected together to a current source.
+
 Working:
 Ensures that the current splits between the two transistors dynamically.
 Helps maintain differential operation.
@@ -47,6 +50,7 @@ Helps maintain differential operation.
 
 4. Drain Resistors(Rd)
 Function: Convert drain current variations into voltage output.
+
 Working:
 The voltage drop across Rd determines the output voltage.
 The differential output voltage is given by:
