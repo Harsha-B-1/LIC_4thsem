@@ -277,7 +277,9 @@ theoretical gain is 13.97dB <br>
  | **Vimin**     |     0.87V       |  0.5V         |   0.4V        |       0.37V       |
  |**Vimax**      |       1.77V     |        1.7V   | 1.9V          |       2V          |
  ## comparision table
-| Parameter          |	Circuit 1: Resistor Load                     	|Circuit 2: Current Source Load   |	Circuit 3: Active Load                 |
+ 
+| Parameter          |	Circuit 1: Resistor Load |Circuit 2: Current Source Load   |	Circuit 3: Active Load                 |
+ |-------------------|-----------------------|---------------|---------------|
 |DC Operating Point  |	Higher power dissipation due to resistor drop	|Moderate power efficiency	       |Best power efficiency                   |
 |Bandwidth (BW)     	|Highest                                        |     lower gain                  |               	Moderate                |
 | CMRR              	|Low                                            |	Moderate                        |	High                                   |
