@@ -287,7 +287,7 @@ theoretical gain is 13.97dB <br>
 |Power Consumption	  |High                                           |	Moderate                        |	Low (best efficiency)                  |
 |Suitability	Simple  |low-cost designs	                              |Balanced performance             |	High-precision applications            |
 <br>
-## Inference
+## Inference  
 1.Integration of Additional Transistor:<br>
 
 In one design, an extra MOSFET is introduced as a current source to enhance tail current stability.<br>
