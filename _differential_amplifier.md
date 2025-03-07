@@ -286,5 +286,24 @@ theoretical gain is 13.97dB <br>
 |Distortion          |	Distorts early (~1.5V)	                       |Better than Resistor Load (~1.7V)|	Best linearity (~1.9V before distortion|
 |Power Consumption	  |High                                           |	Moderate                        |	Low (best efficiency)                  |
 |Suitability	Simple  |low-cost designs	                              |Balanced performance             |	High-precision applications            |
+<br>
+## Inference
+1.Integration of Additional Transistor:<br>
+
+In one design, an extra MOSFET is introduced as a current source to enhance tail current stability.<br>
+This modification ensures a more balanced current distribution in the differential configuration.  
+2.Enhanced Current Stability:  
+
+In the simpler version, the current through the main transistors depends on passive components and supply conditions.  
+With the extra MOSFET, a steady tail current is maintained, minimizing fluctuations caused by external factors.  
+3.Voltage Level Differences:
+
+The output voltage comparison shows a slight variation, indicating improved regulation in the modified circuit.  
+4.Alteration in Current Distribution:  
+
+In the basic setup, the current through each transistor follows an unregulated path.   
+In the improved version, the extra MOSFET ensures a regulated tail current, maintaining better balance.  
+### Overall Conclusion:
+The inclusion of a current source enhances stability, common-mode rejection, and tail current regulation, making the modified circuit more effective for differential applications.
 
  
