@@ -21,7 +21,10 @@ for current mirror ratio 1:1
 
 I(total)=2*Iref
 
-therefore Ireff=0.277mA
+therefore Ireff=0.277mA<br>
+To obtain the current value according to the given ratio, the provided values of W/L for M1 is 3um/180nm , M2 is 3um/180nm, and M3 is 3um/180nm.<br>
+Vin is selected in such a way that it should be in saturation region so the given Vin is 0.838V.<br>
+
 
 
 
@@ -41,9 +44,36 @@ after simulation we get the below DC operating points<br>
 
 ![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cmdc_1.png?raw=true)
 <br>
-for confirming the results we need to clarify that all the transisters are in saturation region(Vds>=Vov) so i foud the respective values,
-![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cm_la1.png?raw=true)
+
+for confirming the results we need to clarify that all the transisters are in saturation region(Vds>=Vov) so i foud the respective values,<br>
+
+**(b)L=500nm.**
+![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cm_la1.png?raw=true)<br>
+
+
+We know the (w/L) ratio is 8.333um.
+
+Therefore for L=500nm the w=8.334um.
+
+|Mosfet     |  Id (mA)              |  
+|-----------|-----------------------|
+|  M1       |   0.243               |             
+|  M2       |   0.243               |             
+|  M3       |   0.2778              |  <br>
+
+**(c)L=1um.**
 ![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cm_la2.png?raw=true)
+We know the (w/L) ratio is 16.667.
+
+Therefore for L=1um the w=16.667um.
+
+
+|Mosfet     |  Id(mA )              | 
+|-----------|-----------------------|
+|  M1       |   0.2389              |             
+|  M2       |   0.2389              |             
+|  M3       |   0.0002778           |             
+
 ![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cmt_1.png?raw=true)
 ![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cmac_1.png?raw=true)
 <br>
