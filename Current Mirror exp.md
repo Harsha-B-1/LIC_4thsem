@@ -42,6 +42,8 @@ after simulation we get the below DC operating points<br>
 ![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cmdc_1.png?raw=true)
 <br>
 for confirming the results we need to clarify that all the transisters are in saturation region(Vds>=Vov) so i foud the respective values,
+![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cm_la1.png?raw=true)
+![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cm_la2.png?raw=true)
 ![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cmt_1.png?raw=true)
 ![](https://github.com/Harsha-B-1/LIC_4thsem/blob/main/cmac_1.png?raw=true)
 <br>
